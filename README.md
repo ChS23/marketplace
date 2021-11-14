@@ -6,3 +6,6 @@
 HTML, CSS, JavaScript,SASS,БЭМ,Git
 
 Демо: https://youtu.be/Wsu2z-F40o0
+
+Среда запуска:
+Необходимо запустить файл main.html в директории frontend/html
