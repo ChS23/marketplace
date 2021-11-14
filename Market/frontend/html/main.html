@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/css/iconFont.css">
+    <link rel="stylesheet" href="../scss/css/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+    <title>Marketplace</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Шапка -->
+        <header class="header">
+            <!-- Каталог -->
+            <div class="catalog">
+                <div class="container">
+                    <div class="catalog__categories">
+                        <nav class="catalog__navbar">
+                            <a href="#meat" class="catalog__item catalog__item_active">Мясо</a>
+                            <a href="#semi-finished" class="catalog__item">Полуфабрикаты</a>
+                            <a href="#fish" class="catalog__item">Рыба</a>
+                            <a href="#grocery" class="catalog__item">Бакалея</a>
+                            <a href="#birds" class="catalog__item">Птица</a>
+                            <a href="#sweets" class="catalog__item">Сладости</a>
+                            <a href="#milk" class="catalog__item">Молочные продукты</a>
+                            <a href="#veg" class="catalog__item">Овощи</a>
+                            <a href="#frut" class="catalog__item">Фрукты</a>
+                            <a href="#berries" class="catalog__item">Ягоды</a>
+                            <a href="#for-pets" class="catalog__item">Питомцам</a>
+                        </nav>
+                        <div class="catalog__body">
+                            <!-- Каталог мяса -->
+                            <div id="meat" class="catalog__block catalog__block_active">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог полуфабрикатов -->
+                            <div id="semi-finished" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог рыбы -->
+                            <div id="fish" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог бакалеи -->
+                            <div id="grocery" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог птицы -->
+                            <div id="birds" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог сладостей -->
+                            <div id="sweets" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог молочных продуктов -->
+                            <div id="milk" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог овощей -->
+                            <div id="veg" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог фруктов -->
+                            <div id="frut" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог ягод -->
+                            <div id="berries" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                            <!-- Каталог для питомцев -->
+                            <div id="for-pets" class="catalog__block">
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                                <div class="catalog__card">
+                                    <img src="http://placehold.it/277x277" alt="Категория" class="ibg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Верхняя часть шапки -->
+                <div class="header__top">
+
+                    <img src="../icons/Logo.svg" alt="AgroMarket" class="header__logo logo">
+                    <div class="header__search-box search">
+                        <button class="search__btn">
+                            <i class="_icon-Burger"></i>
+                            <p>Каталог</p>
+                        </button>
+                        <input type="search" class="search__line" placeholder="Что вы ищите?">
+                        <button class="search__search-btn">
+                            <i class="_icon-Search"></i>
+                            <p>Искать</p>
+                        </button>
+                    </div>
+                    <div class="header__login">
+                        <a href="" class="header__favorite">
+                            <img src="../icons/Favorite.svg" alt="favorite">
+                        </a>
+                        <a href="" class="header__cart">
+                            <img src="../icons/Cart.svg" alt="cart">
+                        </a>
+                        <a href="" class="header__avatar">
+                            <img src="../icons/User.svg" alt="avatar">
+                        </a>
+                    </div>
+                </div>
+                <!-- Нижняя часть шапки -->
+                <div class="header__bottom">
+                    <!-- Навигация -->
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li>
+                                <a href="#" class="header__menu-link">Продавать на AGROMARKET</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__menu-link">Бонусы</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__menu-link">Плановая доставка</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__menu-link">Бокс</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__menu-link">Доставка</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Тело -->
+        <main class="main">
+            <div class="container">
+                <!-- <div class="popular-section__background-image">
+                    <img src="../img/logo-background.png" alt="">
+                </div> -->
+                <!-- Слайдер и ссылка на карту -->
+                <section class="main-line-section">
+                    <div class="main-line-section__slider slider">
+                        <div class="slider__row">
+                            <div class="slider__item">
+                                <h1 class="slider__title">Заказывайте<br> в любое время <br> нашей доставкой</h1>
+                                <img src="../img/slider-image-1.png" alt="Картинка для слайдера" class="ibg">
+                            </div>
+                            <div class="slider__item">
+                                <h1 class="slider__title">Любые <br> продовольственные продукты</h1>
+                                <h2 class="slider__subtitle">У нас на 15% выгоднее</h2>
+                                <img src="../img/slider-image-2.png" alt="Картинка для слайдера" class="ibg">
+                            </div>
+                            <div class="slider__item">
+                                <h1 class="slider__title">Оформи подписку <br> для часто покупаемых <br> товаров</h1>
+                                <h2 class="slider__subtitle">Забудь про <br> необходимость <br> повторять заказ</h2>
+                                <img src="../img/slider-image-3.png" alt="Картинка для слайдера" class="ibg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-line-section__mapbox">
+                        <h2 class="main-line-section__map-title">Посмотреть точки самовывоза</h2>
+                        <a href="#mapID"><img src="../img/map.png" alt="Карта" class="main-line-section__map-link"></a>
+                    </div>
+                </section>
+                <!-- Категории -->
+                <section class="categories-section">
+                    <h2 class="categories-section__title title">Категории</h2>
+                    <div class="categories-section__infinity-slider-row infinity-slider-row">
+                        <div class="infinity-slider-row__item">
+                            <div class="infinity-slider-row__image">
+                                <img src="http://placehold.it/277x277" alt="Фото продукта" class="ibg">
+                            </div>
+                            <h3 class="infinity-slider-row__title">Овощи</h3>
+                        </div>
+                        <div class="infinity-slider-row__item">
+                            <div class="infinity-slider-row__image">
+                                <img src="http://placehold.it/277x277" alt="Фото продукта" class="ibg">
+                            </div>
+                            <h3 class="infinity-slider-row__title">Фрукты</h3>
+                        </div>
+                        <div class="infinity-slider-row__item">
+                            <div class="infinity-slider-row__image">
+                                <img src="http://placehold.it/277x277" alt="Фото продукта" class="ibg">
+                            </div>
+                            <h3 class="infinity-slider-row__title">Мясо</h3>
+                        </div>
+                        <div class="infinity-slider-row__item">
+                            <div class="infinity-slider-row__image">
+                                <img src="http://placehold.it/277x277" alt="Фото продукта" class="ibg">
+                            </div>
+                            <h3 class="infinity-slider-row__title">Мёд</h3>
+                        </div>
+                        <div class="infinity-slider-row__item">
+                            <div class="infinity-slider-row__image">
+                                <img src="http://placehold.it/277x277" alt="Фото продукта" class="ibg">
+                            </div>
+                            <h3 class="infinity-slider-row__title">Ягоды</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- Популярные товары -->
+                <section class="popular-section">
+                    <h2 class="popular-section__title title">Популярные товары</h2>
+                    <!-- Grid-контейнер для продуктов -->
+                    <div class="popular-section__products-container products-container">
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <a href="#">
+                                <div class="product__image">
+                                    <img src="../img/example.png" class="ibg" alt="Картинка товара">
+                                </div>
+                            </a>
+                            <h3 class="product__name"> <a href="#">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</a></h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Доставим быстро -->
+                <section class="fast-delivery-section">
+                    <h2 class="fast-delivery-section__title title">Доставим быстро</h2>
+                    <div class="fast-delivery-section__products-container products-container">
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Специальные предложения -->
+                <section class="special-offer-section">
+                    <h2 class="special-offer-section__title title">Специальные предложения</h2>
+                    <div class="special-offer-section__products-container products-container">
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Боксы -->
+                <section class="boxes-section">
+                    <h2 class="boxes-section__title title">Боксы</h2>
+                    <div class="boxes-section__products-container products-container">
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                        <!-- Карта продукта -->
+                        <div class="products-container__item product">
+                            <div class="product__image">
+                                <img src="http://placehold.it/385x385" class="ibg" alt="Картинка товара">
+                            </div>
+                            <h3 class="product__name">ЯЙЦА БЕЛЫЕ КУРИНЫЕ, ДОМАШНИЕ 30 ШТ</h3>
+                            <span class="product__price">270₽<sup>300₽</sup></span>
+                            <button class="product__cart-btn cart-btn">В корзину</button>
+                            <a href="#" class="product__seller-name"><i class="_icon-Seller"></i>Василий Родионов</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Адреса площадок -->
+                <section class="map-section">
+                    <h2 class="map-section__title title" id="mapID">Адреса площадок</h2>
+                    <div class="map-section__row">
+                        <div class="map-section__map-search">
+                            <div class="map-section__search-box search">
+                                <input type="search" class="map-section__search-line search__line"
+                                    placeholder="Что вы ищите?">
+                                    <button class="search__search-btn">
+                                        <i class="_icon-Search"></i>
+                                        <p>Искать</p>
+                                    </button>
+                            </div>
+                            <ul class="map-section__addresses-list">
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кремлёвская, д.21, ТЦ Плаза <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, Первомайская ул., 109а <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, Первомайская ул., 109а <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                                <li>
+                                    Республика Марий Эл, Йошкар-Ола, ул Кирова, д.6, корп.А, 2 этаж <br>
+                                    <span>Пункт выдачи</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="map-section__map" id="map">
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Подвал -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <div class="footer__top-item">
+                        <img src="../icons/Logo.svg" alt="AgroMarket" class="footer__logo logo">
+                    </div>
+                    <div class="footer__top-item">
+                        <h3 class="footer__item-title">Покупателю</h3>
+                        <ul class="footer__item-list">
+                            <li>
+                                <a href="#" class="footer__item-link">Личный кабинет</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Доставка и оплата</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Условия возврата</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Помощь</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top-item">
+                        <h3 class="footer__item-title">Продавцу</h3>
+                        <ul class="footer__item-list">
+                            <li>
+                                <a href="#" class="footer__item-link">Личный кабинет</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Справка для продавцов</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__top-item">
+                        <h3 class="footer__item-title">О нас</h3>
+                        <ul class="footer__item-list">
+                            <li>
+                                <a href="#" class="footer__item-link">О сервисе</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__item-link">Обратная связь</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__copy">
+                        <a href="#">Политика конфиденциальности</a> <br>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                    <div class="footer__icons">
+                        <a href="https://vk.com/" class="_icon-VK"></a>
+                        <a href="https://ok.ru/" class="_icon-OK"></a>
+                        <a href="https://facebook.com" class="_icon-Facebook"></a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script src="../js/mapApp.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/catalog.js"></script>
+</body>
+
+</html>
